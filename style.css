@@ -1,0 +1,86 @@
+body{
+	margin-left: 60px;
+	margin-right: 60px;
+	background-image: url('https://images.pexels.com/photos/709817/pexels-photo-709817.jpeg?cs=srgb&dl=pexels-daria-shevtsova-709817.jpg&fm=jpg');
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	font-size: large;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: antiquewhite;
+	font-size: x-large;
+
+}
+h1{
+	text-align: center;
+}
+.one{
+	display: grid;
+	grid-template-columns: 0.5fr 0.5fr;
+	margin: 12px;
+}
+.two{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 12px;
+}
+.three{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 12px;
+}
+.four{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.allColumns{
+	background: rgba(96, 108, 56, .5)
+}
+.columns{
+	width: 60%;
+	margin: auto;
+}
+.columns2{
+	margin-top: 60px;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+
+  }
+  table, td, th {
+	border: 1px solid antiquewhite;
+	border-radius: 5px;
+
+ }
+ th{
+	width: 50%;
+ }
+ td{
+	width: 50%;
+ }
+ .myChart{
+	width:100%;
+	max-width:600px
+ }
+ .Calculate{
+	background-color: #F4AC32;
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	border-radius: 10px;
+ }
+.costForBoxApple{
+	border-radius: 5px;
+}
+.appleNumberInBox{
+	border-radius: 5px;
+}
+.PacketSize{
+	border-radius: 5px;
+}
+.profietNeeded{
+	border-radius: 5px;
+}
